@@ -1,0 +1,18 @@
+name: rapwiz42
+dependencies:
+  - python=3.7
+  - tensorflow-gpu=1.15
+  - pip
+  - pip:
+    - pronouncing
+    - syllables
+    - progressbar2
+    - gpt-2-simple
+    - enlighten
+    - lyricsgenius
+    - pyyaml
+  - jupyterlab
+  - notebook
+channels:
+  - anaconda
+  - conda-forge
